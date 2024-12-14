@@ -12,17 +12,17 @@ load_dotenv()
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-EVAL = list(map(int, getenv("EVAL", "6399386263").split()))
+EVAL = list(map(int, getenv("EVAL", "7166539540").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","@itsMeShivanshu")
+OWNER_USERNAME = getenv("OWNER_USERNAME","unFav_TMzeroo")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "@TheChampuBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "M4_Music_BoT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "TheChampuBot")
+BOT_NAME = getenv("BOT_NAME" , "NYCREATION_BOT")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "ChampuAssistant")
+ASSUSERNAME = getenv("ASSUSERNAME" , "NYCREATIONBOT")
 # ---------------------------------------------------------
 
 LOGGERS = "\x54\x68\x65\x54\x65\x6C\x65\x67\x72\x61\x6D\x52\x6F\x62\x6F\x74"  # connect errors api key "Dont change it"
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001770315307))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002182851898))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6399386263))
+OWNER_ID = int(getenv("OWNER_ID", 7166539540))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheChampu/DaxxBroRepo",
+    "https://github.com/Nand72820/Rdp",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv(
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheChampuClub")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/akaChampu")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CreativeYdv")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/v2ddos")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
